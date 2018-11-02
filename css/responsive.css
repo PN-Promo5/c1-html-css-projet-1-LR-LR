@@ -1,0 +1,130 @@
+@media only screen and (max-width: 640px){
+  /* CONTAINER */
+  .container{
+    width: 100%;
+  }
+
+  /* NAVIGATION MENU */
+  #nav{
+    width: 100%;
+  }
+
+  label{
+    display: block;
+    cursor: pointer;
+  }
+  .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu li{
+    display: block;
+    border-top: 1px solid white;
+    margin-right: 0;
+  }
+  #toggle:checked + .menu{ /* display hambuger menu when toggle is checked */
+    display: block;
+  }
+
+  /* HEADER */
+  header{
+    height: 600px;
+  }
+
+  #title-cta h1 {
+    font-size: 40px;
+  }
+
+  /* CALL TO ACTION */
+  #title-cta a{
+    font-size: 30px;
+  }
+
+  /* CONCEPT */
+h2{
+  font-size: 2rem;
+}
+
+  #concept p{
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+  }
+
+  #concept div{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* PROMOTION */
+  #promotion > div{
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  #promotion > div div{
+    margin-bottom: 30px;
+  }
+
+  #promotion a img{
+    width: 200px;
+    margin: 15px auto;
+  }
+
+  #promotion p{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* PRODUCTS */
+  #products-section > div{
+    flex-direction: column;
+  }
+
+  .product{
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  /* ADVANTAGES */
+  #section-advantages > div{
+    flex-direction: column;
+  }
+
+  .advantage{
+    margin: 0px auto 20px;
+  }
+
+  /* FOOTER */
+  footer{
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 50px;
+  }
+
+  /* FORM */
+  #form{
+    margin: auto 0;
+  }
+
+  #links .social a:first-child i{
+    color: #3b5998;
+  }
+
+  #links .social a:nth-child(2) i{
+    color: #cd486b;
+  }
+
+  #links .social a:last-child i{
+      color: #00ACEE;
+  }
+
+  /* CHEVRON */
+  #chevron{
+    bottom: 10px;
+    right: 50%;
+    transform: translateX(+50%);
+  }
+}
