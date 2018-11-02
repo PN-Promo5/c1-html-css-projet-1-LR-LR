@@ -90,7 +90,7 @@ h2{
 
   /* ADVANTAGES */
   #section-advantages > div{
-    flex-direction: column;
+  flex-direction: column;
   }
 
   .advantage{

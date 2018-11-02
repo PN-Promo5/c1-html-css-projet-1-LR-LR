@@ -33,10 +33,10 @@
 
 /* ------RESET------ */
 html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, abbr, address, code, em, img, small, strike, strong, sub, sup, b, u, i, fieldset, form, label, legend, table, caption, tbody, tfoot,
-thead, tr, th, td, article, aside, canvas, figure, figcaption, footer, header, nav, section ,ol, ul, li
-  {
+thead, tr, th, td, article, aside, canvas, figure, figcaption, footer, header, nav, section, ol, ul, li {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -396,15 +396,21 @@ header #title-cta a {
 
 /* ADVANTAGES */
 #section-advantages {
+  position: relative;
   background-color: #1A5C9A;
   padding: 60px;
 }
 
-#section-advantages>div {
+#section-advantages > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
+}
+
+.advantage-link{
+  display: block;
+  margin: 0 auto;
 }
 
 #section-advantages>div .advantage {
@@ -415,6 +421,15 @@ header #title-cta a {
   margin: 0;
   color: #FFF;
   text-align: center;
+}
+
+#section-advantages>p {
+  font-size: 13px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  text-align: right;
 }
 
 .advantage {
